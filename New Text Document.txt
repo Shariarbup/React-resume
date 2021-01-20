@@ -10,3 +10,6 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
 import '../node_modules/bootstrap/dist/js/bootstrap.min.js';
+
+host on github
+npm install --save gh-pages
