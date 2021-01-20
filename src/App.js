@@ -5,6 +5,7 @@ import "../node_modules/bootstrap/dist/js/bootstrap.bundle.js";
 import About from './About';
 import './App.css';
 import Contact from './Contact';
+import Footer from './Footer';
 import Home from './Home';
 import Navbar from './Navbar';
 import Service from './Service';
@@ -15,13 +16,15 @@ function App() {
     <Navbar/>
     <Switch>
       <Route exact path='/' component={Home}/>
-      <Route exact path='/about' component={About}/>
+     
       <Route exact path='/contact' component={Contact}/>
       <Route exact path='/service' component={Service}/>
+      <Route exact path='/about' component={About}/>
       <Redirect to="/" />
       
       
     </Switch>
+    <Footer/>
     </>
   );
 }
