@@ -6,7 +6,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.NODE_ENV === 'production' ? '/React-resume': ''}>
     <App />
   </BrowserRouter>,
   document.getElementById('root')
